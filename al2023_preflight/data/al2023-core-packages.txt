@@ -1,5 +1,5 @@
 # repo: amazonlinux
-# generated: 2026-07-03T10:34:40Z on Amazon Linux release 2023.12.20260629 (Amazon Linux)
+# generated: 2026-07-06T03:53:05Z for Amazon Linux release 2023.12.20260629
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 7zip
 7zip-reduced
