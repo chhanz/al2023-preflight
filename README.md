@@ -17,6 +17,8 @@ The assessment model is inspired by the pre-upgrade analysis of
 [leapp](https://github.com/oamg/leapp) (RHEL's in-place upgrade tool),
 reinterpreted for a redeploy-not-upgrade context.
 
+![Example HTML report](docs/images/report-example.png)
+
 ## Requirements
 
 - Amazon Linux 2 host (non-AL2 hosts are rejected; override with `--force`)
