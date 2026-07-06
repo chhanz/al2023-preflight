@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Tool output — reports must never be committed (they contain hostnames,
+# instance ids, package lists and script paths from scanned hosts)
+*-report_*.txt
+*-report_*.json
+*-report_*.html
+fleet-summary.txt
+fleet-dashboard.html
+dashboard.html
+
+# Packaging artifacts
+*.tar.gz
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

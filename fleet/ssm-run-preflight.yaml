@@ -1,0 +1,44 @@
+# SSM Run Command document: run al2023-preflight on AL2 fleet, upload to S3.
+#
+# Register once:
+#   aws ssm create-document --name "RunAL2023Preflight" \
+#     --document-type Command --document-format YAML \
+#     --content file://ssm-run-preflight.yaml
+#
+# Execute against the fleet (tag- or id-targeted):
+#   aws ssm send-command --document-name "RunAL2023Preflight" \
+#     --targets Key=tag:os,Values=al2 \
+#     --parameters toolUrl=s3://my-preflight-bucket/tool/al2023-preflight.tar.gz,reportBucket=my-preflight-bucket
+#
+# Instance role needs: s3:GetObject on the tool key, s3:PutObject on reports/*.
+schemaVersion: "2.2"
+description: "AL2 to AL2023 replatform readiness assessment (read-only scan)"
+parameters:
+  toolUrl:
+    type: String
+    description: "S3 URL of the al2023-preflight tarball"
+  reportBucket:
+    type: String
+    description: "S3 bucket that receives reports/ objects"
+  reportPrefix:
+    type: String
+    default: "reports"
+mainSteps:
+  - action: aws:runShellScript
+    name: runAssessor
+    precondition:
+      StringEquals: [platformType, Linux]
+    inputs:
+      timeoutSeconds: "600"
+      runCommand:
+        - set -e
+        - WORK=$(mktemp -d)
+        - trap 'rm -rf "$WORK"' EXIT
+        - aws s3 cp "{{toolUrl}}" "$WORK/tool.tar.gz" --quiet
+        - tar xzf "$WORK/tool.tar.gz" -C "$WORK"
+        - cd "$WORK"
+        # exit 1/2 = findings/blockers, still a successful scan for SSM
+        - python3 -m al2023_preflight.cli scan --json --output "$WORK/out" || rc=$?
+        - test -n "$(ls "$WORK"/out/*.json 2>/dev/null)"
+        - aws s3 cp "$WORK/out/" "s3://{{reportBucket}}/{{reportPrefix}}/" --recursive --exclude "*" --include "*.json" --quiet
+        - echo "uploaded $(ls "$WORK"/out/*.json | xargs -n1 basename)"
