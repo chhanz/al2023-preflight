@@ -140,9 +140,22 @@ asserts all expected findings fire.
 
 ## Limitations
 
-- This tool covers **known breaking patterns** at the OS level. It cannot
-  see application-internal incompatibilities (e.g. code using OpenSSL 3
-  removed APIs) — validate workloads in a test environment before cutover.
+- **Not an official Amazon Linux / AWS tool.** This is an independent,
+  community project with no affiliation to, or endorsement by, Amazon Web
+  Services. AWS provides no automated AL2-to-AL2023 assessment tool; this
+  project fills that gap on a best-effort basis. Findings and remediation
+  hints are not AWS guidance — always cross-check against the official
+  [AL2023 documentation](https://docs.aws.amazon.com/linux/al2023/ug/).
+- **No application-level migration assessment.** The scan stops at the OS
+  layer: packages, repositories, linked libraries, system configuration,
+  provisioning scripts, and running interpreters. It does not analyze your
+  application source code, framework/library compatibility, database
+  engine behavior, or runtime business logic (e.g. code calling OpenSSL 3
+  removed APIs, or an app depending on version-specific behavior of a
+  package that AL2023 ships in a newer major version). A clean grade means
+  the OS-level replatform surface looks manageable — it does not certify
+  that the application will work. Always validate workloads on a real
+  AL2023 test instance before cutover.
 - Grades are planning signals calibrated on a limited instance sample.
 - SPAL-covered packages are provided as-is from upstream EPEL9, are not
   covered by AWS Support Plans, and receive no AWS CVE tracking — review
