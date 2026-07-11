@@ -1,6 +1,6 @@
 {
   "_comment": "AL2 -> AL2023 knowledge data. Sources: AWS official docs (compare-with-al2, deprecated-al2, spal), verified 2026-07-03. Update independently of engine code (leapp PES-data pattern).",
-  "data_version": "2026-07-06",
+  "data_version": "2026-07-10",
 
   "extras_topics": {
     "docker":        {"al2023": "docker (core repository)"},
