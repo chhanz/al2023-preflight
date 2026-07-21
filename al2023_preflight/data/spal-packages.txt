@@ -1,5 +1,5 @@
 # repo: amazonlinux-spal
-# generated: 2026-07-11T00:00:13Z for Amazon Linux release 2023.12.20260710
+# generated: 2026-07-21T00:00:44Z for Amazon Linux release 2023.12.20260720
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 3proxy
 AMF-devel
@@ -1440,6 +1440,7 @@ gsoap-doc
 gspell
 gspell-devel
 gspell-doc
+gstreamer1-plugin-libav
 gtk-layer-shell
 gtk-layer-shell-devel
 gtk-murrine-engine
