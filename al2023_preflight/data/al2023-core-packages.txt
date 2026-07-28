@@ -1,5 +1,5 @@
 # repo: amazonlinux
-# generated: 2026-07-25T00:00:49Z for Amazon Linux release 2023.12.20260724
+# generated: 2026-07-28T00:00:41Z for Amazon Linux release 2023.12.20260727
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 7zip
 7zip-reduced
@@ -2626,6 +2626,7 @@ kernel-livepatch-6.1.176-220.358
 kernel-livepatch-6.1.176-220.360
 kernel-livepatch-6.1.176-221.360
 kernel-livepatch-6.1.176-221.367
+kernel-livepatch-6.1.176-223.369
 kernel-livepatch-6.1.19-30.43
 kernel-livepatch-6.1.21-1.45
 kernel-livepatch-6.1.23-36.46
@@ -2702,6 +2703,7 @@ kernel-livepatch-6.12.94-123.174
 kernel-livepatch-6.12.94-123.176
 kernel-livepatch-6.12.94-123.180
 kernel-livepatch-6.12.94-123.190
+kernel-livepatch-6.12.94-123.192
 kernel-livepatch-6.18.15-14.217
 kernel-livepatch-6.18.16-18.222
 kernel-livepatch-6.18.20-20.229
@@ -2718,6 +2720,7 @@ kernel-livepatch-6.18.36-69.134
 kernel-livepatch-6.18.36-69.136
 kernel-livepatch-6.18.36-69.138
 kernel-livepatch-6.18.38-73.137
+kernel-livepatch-6.18.38-76.139
 kernel-livepatch-6.18.8-9.213
 kernel-livepatch-repo-cdn
 kernel-livepatch-repo-s3
