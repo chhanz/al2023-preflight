@@ -1,5 +1,5 @@
 # repo: amazonlinux-spal
-# generated: 2026-07-28T00:00:41Z for Amazon Linux release 2023.12.20260727
+# generated: 2026-08-05T00:00:36Z for Amazon Linux release 2023.12.20260803
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 3proxy
 AMF-devel
@@ -2153,6 +2153,7 @@ lsfrom
 lsscsi
 lua-basexx
 lua-binaryheap
+lua-bit32
 lua-cqueues
 lua-cqueues-doc
 lua-dbi
@@ -2177,6 +2178,7 @@ lua-socket
 lua-unbound
 lua5.1-basexx
 lua5.1-binaryheap
+lua5.1-bit32
 lua5.1-bitop
 lua5.1-compat53
 lua5.1-cqueues
@@ -9229,6 +9231,8 @@ rust-rsa+sha2-devel
 rust-rsa+std-devel
 rust-rsa+u64_digit-devel
 rust-rsa-devel
+rust-rsconf+default-devel
+rust-rsconf-devel
 rust-rspec+default-devel
 rust-rspec-devel
 rust-rstest+async-timeout-devel
@@ -9248,6 +9252,25 @@ rust-runtime-format+default-devel
 rust-runtime-format+std-devel
 rust-runtime-format+tinyvec-devel
 rust-runtime-format-devel
+rust-rust-embed+debug-embed-devel
+rust-rust-embed+default-devel
+rust-rust-embed+deterministic-timestamps-devel
+rust-rust-embed+hex-devel
+rust-rust-embed+include-exclude-devel
+rust-rust-embed+interpolate-folder-path-devel
+rust-rust-embed-devel
+rust-rust-embed-impl+debug-embed-devel
+rust-rust-embed-impl+default-devel
+rust-rust-embed-impl+deterministic-timestamps-devel
+rust-rust-embed-impl+include-exclude-devel
+rust-rust-embed-impl+interpolate-folder-path-devel
+rust-rust-embed-impl+shellexpand-devel
+rust-rust-embed-impl-devel
+rust-rust-embed-utils+debug-embed-devel
+rust-rust-embed-utils+default-devel
+rust-rust-embed-utils+globset-devel
+rust-rust-embed-utils+include-exclude-devel
+rust-rust-embed-utils-devel
 rust-rust-fuzzy-search+default-devel
 rust-rust-fuzzy-search-devel
 rust-rust-ini+brackets-in-section-names-devel
@@ -11622,6 +11645,10 @@ rust-wide+default-devel
 rust-wide+serde-devel
 rust-wide+std-devel
 rust-wide-devel
+rust-widestring+alloc-devel
+rust-widestring+default-devel
+rust-widestring+std-devel
+rust-widestring-devel
 rust-winnow+alloc-devel
 rust-winnow+ascii-devel
 rust-winnow+binary-devel
@@ -11778,6 +11805,8 @@ rust-xi-unicode+default-devel
 rust-xi-unicode-devel
 rust-xml-rs+default-devel
 rust-xml-rs-devel
+rust-xterm-color+default-devel
+rust-xterm-color-devel
 rust-xz2+default-devel
 rust-xz2-devel
 rust-y4m+default-devel
