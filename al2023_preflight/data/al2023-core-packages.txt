@@ -1,5 +1,5 @@
 # repo: amazonlinux
-# generated: 2026-08-05T00:00:36Z for Amazon Linux release 2023.12.20260803
+# generated: 2026-08-18T00:00:41Z for Amazon Linux release 2023.12.20260817
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 7zip
 7zip-reduced
@@ -48,6 +48,7 @@ SuperLU-doc
 Xaw3d
 Xaw3d-devel
 a2ps
+aardvark-dns
 abattis-cantarell-fonts
 abseil-cpp
 abseil-cpp-devel
@@ -440,6 +441,7 @@ bsh
 bsh-javadoc
 bsh-manual
 bubblewrap
+buildah
 byacc
 byaccj
 byte-buddy
@@ -666,6 +668,8 @@ console-setup
 container-selinux
 containerd
 containerd-stress
+containers-common
+containers-common-extra
 copy-jdk-configs
 coreutils
 coreutils-common
@@ -712,6 +716,7 @@ cscope
 csnappy
 csnappy-devel
 ctags
+ctdb-latest
 cups
 cups-client
 cups-devel
@@ -2629,6 +2634,7 @@ kernel-livepatch-6.1.176-221.360
 kernel-livepatch-6.1.176-221.367
 kernel-livepatch-6.1.176-223.369
 kernel-livepatch-6.1.177-224.371
+kernel-livepatch-6.1.180-225.360
 kernel-livepatch-6.1.19-30.43
 kernel-livepatch-6.1.21-1.45
 kernel-livepatch-6.1.23-36.46
@@ -2666,6 +2672,7 @@ kernel-livepatch-6.1.92-99.174
 kernel-livepatch-6.1.94-99.176
 kernel-livepatch-6.1.96-102.177
 kernel-livepatch-6.1.97-104.177
+kernel-livepatch-6.12.100-125.179
 kernel-livepatch-6.12.20-23.97
 kernel-livepatch-6.12.22-27.96
 kernel-livepatch-6.12.23-29.97
@@ -2725,6 +2732,7 @@ kernel-livepatch-6.18.36-69.138
 kernel-livepatch-6.18.38-73.137
 kernel-livepatch-6.18.38-76.139
 kernel-livepatch-6.18.39-79.141
+kernel-livepatch-6.18.41-94.142
 kernel-livepatch-6.18.8-9.213
 kernel-livepatch-repo-cdn
 kernel-livepatch-repo-s3
@@ -2775,6 +2783,7 @@ kiwi-cli
 kiwi-image-descriptions-examples
 kiwi-systemdeps
 kiwi-systemdeps-bootloaders
+kiwi-systemdeps-containers
 kiwi-systemdeps-core
 kiwi-systemdeps-disk-images
 kiwi-systemdeps-filesystems
@@ -3097,6 +3106,7 @@ lcms2-devel
 lcms2-utils
 lcov
 ldb-tools
+ldb-tools-latest
 ldns
 ldns-devel
 ldns-doc
@@ -3547,6 +3557,8 @@ libksba
 libksba-devel
 libldb
 libldb-devel
+libldb-latest
+libldb-latest-devel
 liblockfile
 liblockfile-devel
 liblognorm
@@ -3595,6 +3607,8 @@ libnet-devel
 libnet-doc
 libnetapi
 libnetapi-devel
+libnetapi-latest
+libnetapi-latest-devel
 libnetfilter_conntrack
 libnetfilter_conntrack-devel
 libnetfilter_cthelper
@@ -3824,6 +3838,8 @@ libsmartcols
 libsmartcols-devel
 libsmbclient
 libsmbclient-devel
+libsmbclient-latest
+libsmbclient-latest-devel
 libsmi
 libsmi-devel
 libsndfile
@@ -3892,13 +3908,19 @@ libsysprof
 libsysprof-ui
 libtalloc
 libtalloc-devel
+libtalloc-latest
+libtalloc-latest-devel
 libtasn1
 libtasn1-devel
 libtasn1-tools
 libtdb
 libtdb-devel
+libtdb-latest
+libtdb-latest-devel
 libtevent
 libtevent-devel
+libtevent-latest
+libtevent-latest-devel
 libtextstyle
 libtextstyle-devel
 libthai
@@ -3992,6 +4014,8 @@ libwayland-egl
 libwayland-server
 libwbclient
 libwbclient-devel
+libwbclient-latest
+libwbclient-latest-devel
 libwebp
 libwebp-devel
 libwebp-java
@@ -4667,6 +4691,7 @@ net-snmp-libs
 net-snmp-perl
 net-snmp-utils
 net-tools
+netavark
 netconsole-service
 nethogs
 netlabel_tools
@@ -6725,6 +6750,7 @@ python3-ldap
 python3-ldap3
 python3-ldb
 python3-ldb-devel
+python3-ldb-latest
 python3-ldns
 python3-libcomps
 python3-libdnf
@@ -6900,6 +6926,9 @@ python3-s3transfer
 python3-samba
 python3-samba-dc
 python3-samba-devel
+python3-samba-latest
+python3-samba-latest-dc
+python3-samba-latest-test
 python3-samba-test
 python3-sanlock
 python3-satyr
@@ -6953,8 +6982,11 @@ python3-supportinfo
 python3-systemd
 python3-talloc
 python3-talloc-devel
+python3-talloc-latest
+python3-talloc-latest-devel
 python3-tbb
 python3-tdb
+python3-tdb-latest
 python3-templated-dictionary
 python3-termcolor
 python3-test
@@ -6962,6 +6994,7 @@ python3-testpath
 python3-testscenarios
 python3-testtools
 python3-tevent
+python3-tevent-latest
 python3-text-unidecode
 python3-tkinter
 python3-toml
@@ -7324,6 +7357,30 @@ samba-dc-libs
 samba-dcerpc
 samba-devel
 samba-krb5-printing
+samba-latest
+samba-latest-client
+samba-latest-client-libs
+samba-latest-common
+samba-latest-common-tools
+samba-latest-core-libs
+samba-latest-dc-libs
+samba-latest-dcerpc
+samba-latest-devel
+samba-latest-krb5-printing
+samba-latest-ldb-ldap-modules
+samba-latest-libs
+samba-latest-ndr-libs
+samba-latest-pidl
+samba-latest-prometheus
+samba-latest-test
+samba-latest-test-libs
+samba-latest-tools
+samba-latest-usershares
+samba-latest-vfs-iouring
+samba-latest-winbind
+samba-latest-winbind-clients
+samba-latest-winbind-krb5-locator
+samba-latest-winbind-modules
 samba-ldb-ldap-modules
 samba-libs
 samba-pidl
@@ -7391,6 +7448,8 @@ sisu
 sisu-javadoc
 sisu-mojos
 sisu-mojos-javadoc
+skopeo
+skopeo-tests
 slang
 slang-devel
 slang-slsh
@@ -7589,6 +7648,7 @@ tclx
 tclx-devel
 tcpdump
 tcsh
+tdb-latest-tools
 tdb-tools
 teckit
 teckit-devel
