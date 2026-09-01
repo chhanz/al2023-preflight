@@ -1,5 +1,5 @@
 # repo: amazonlinux
-# generated: 2026-08-18T00:00:41Z for Amazon Linux release 2023.12.20260817
+# generated: 2026-09-01T00:00:52Z for Amazon Linux release 2023.12.20260831
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 7zip
 7zip-reduced
@@ -440,6 +440,8 @@ bsf
 bsh
 bsh-javadoc
 bsh-manual
+btrfs-progs
+btrfs-progs-devel
 bubblewrap
 buildah
 byacc
@@ -926,6 +928,10 @@ edid-decode
 editorconfig
 editorconfig-devel
 editorconfig-libs
+edk2-aarch64
+edk2-ovmf
+edk2-shell-aa64
+edk2-shell-x64
 efi-filesystem
 efi-srpm-macros
 efibootmgr
@@ -2334,6 +2340,9 @@ iputils
 iputils-ninfod
 ipvsadm
 irqbalance
+isa-l
+isa-l-devel
+isa-l-tools
 iscsi-initiator-utils
 iscsi-initiator-utils-devel
 iscsi-initiator-utils-iscsiuio
@@ -2635,6 +2644,7 @@ kernel-livepatch-6.1.176-221.367
 kernel-livepatch-6.1.176-223.369
 kernel-livepatch-6.1.177-224.371
 kernel-livepatch-6.1.180-225.360
+kernel-livepatch-6.1.182-227.379
 kernel-livepatch-6.1.19-30.43
 kernel-livepatch-6.1.21-1.45
 kernel-livepatch-6.1.23-36.46
@@ -2673,6 +2683,7 @@ kernel-livepatch-6.1.94-99.176
 kernel-livepatch-6.1.96-102.177
 kernel-livepatch-6.1.97-104.177
 kernel-livepatch-6.12.100-125.179
+kernel-livepatch-6.12.103-127.188
 kernel-livepatch-6.12.20-23.97
 kernel-livepatch-6.12.22-27.96
 kernel-livepatch-6.12.23-29.97
@@ -2733,6 +2744,7 @@ kernel-livepatch-6.18.38-73.137
 kernel-livepatch-6.18.38-76.139
 kernel-livepatch-6.18.39-79.141
 kernel-livepatch-6.18.41-94.142
+kernel-livepatch-6.18.44-99.149
 kernel-livepatch-6.18.8-9.213
 kernel-livepatch-repo-cdn
 kernel-livepatch-repo-s3
@@ -3269,6 +3281,8 @@ libbrotli
 libbsd
 libbsd-ctor-static
 libbsd-devel
+libbtrfs
+libbtrfsutil
 libburn
 libburn-devel
 libburn-doc
@@ -3997,6 +4011,34 @@ libverto-libev
 libverto-libev-devel
 libverto-libevent
 libverto-libevent-devel
+libvirt
+libvirt-client
+libvirt-client-qemu
+libvirt-daemon
+libvirt-daemon-common
+libvirt-daemon-config-network
+libvirt-daemon-config-nwfilter
+libvirt-daemon-driver-interface
+libvirt-daemon-driver-network
+libvirt-daemon-driver-nodedev
+libvirt-daemon-driver-nwfilter
+libvirt-daemon-driver-qemu
+libvirt-daemon-driver-secret
+libvirt-daemon-driver-storage
+libvirt-daemon-driver-storage-core
+libvirt-daemon-driver-storage-disk
+libvirt-daemon-driver-storage-logical
+libvirt-daemon-kvm
+libvirt-daemon-lock
+libvirt-daemon-log
+libvirt-daemon-plugin-lockd
+libvirt-daemon-proxy
+libvirt-daemon-qemu
+libvirt-devel
+libvirt-docs
+libvirt-libs
+libvirt-nss
+libvirt-ssh-proxy
 libvoikko
 libvoikko-devel
 libvorbis
@@ -5000,6 +5042,8 @@ papi-testsuite
 parallel
 parted
 parted-devel
+passt
+passt-selinux
 passwd
 patch
 patchelf
@@ -6560,6 +6604,7 @@ python-psycopg2-doc
 python-pyasn1-doc
 python-pymongo-doc
 python-pyrsistent-doc
+python-qemu-qmp-doc
 python-rpm-macros
 python-semantic_version-doc
 python-service-identity-doc
@@ -6606,6 +6651,7 @@ python3-bottle
 python3-breathe
 python3-brotli
 python3-bson
+python3-btrfsutil
 python3-bytesize
 python3-cairo
 python3-cairo-devel
@@ -6774,6 +6820,7 @@ python3-libsemanage
 python3-libsss_nss_idmap
 python3-libstoragemgmt
 python3-libuser
+python3-libvirt
 python3-libvoikko
 python3-libxml2
 python3-libxslt
@@ -6900,6 +6947,7 @@ python3-pywbem
 python3-pyxattr
 python3-pyxdg
 python3-pyyaml
+python3-qemu-qmp
 python3-qrcode
 python3-raven
 python3-raven+flask
@@ -7146,7 +7194,25 @@ python3.14-wheel
 python3.14-wheel-wheel
 qdox
 qdox-javadoc
+qemu
+qemu-common
+qemu-docs
+qemu-guest-agent
 qemu-img
+qemu-kvm
+qemu-kvm-core
+qemu-pr-helper
+qemu-system-aarch64
+qemu-system-aarch64-core
+qemu-system-x86
+qemu-system-x86-core
+qemu-tests
+qemu-tools
+qemu-user
+qemu-user-binfmt
+qemu-user-static
+qemu-user-static-aarch64
+qemu-user-static-x86
 qhull
 qhull-devel
 qpdf
@@ -7409,7 +7475,10 @@ scotch-doc
 scpio
 screen
 scrub
+seabios
+seabios-bin
 seahorse
+seavgabios-bin
 sed
 sedutil
 selinux-policy
