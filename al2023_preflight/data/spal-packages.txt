@@ -1,5 +1,5 @@
 # repo: amazonlinux-spal
-# generated: 2026-09-15T00:01:01Z for Amazon Linux release 2023.12.20260914
+# generated: 2026-09-18T00:00:31Z for Amazon Linux release 2023.12.20260917
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 3proxy
 AMF-devel
@@ -110,6 +110,8 @@ babl-devel
 babl-devel-docs
 barman
 barman-cli
+bash-preexec
+bash-preexec-all-users
 bats
 bcal
 bcftools
@@ -1383,6 +1385,7 @@ gnuastro-devel
 gnuastro-doc
 gnuchess
 gnucobol
+gnucobol-esql
 go-filesystem3.7
 go-rpm-macros3.7
 go-rpm-templates3.7
@@ -2872,6 +2875,7 @@ php-pecl-raphf-devel
 php-zstd
 php-zstd-devel
 phpMyAdmin
+picojson-devel
 pidgin
 pidgin-devel
 pidgin-docs
@@ -4465,6 +4469,8 @@ rust-cargo_metadata0.19+builder-devel
 rust-cargo_metadata0.19+default-devel
 rust-cargo_metadata0.19+derive_builder-devel
 rust-cargo_metadata0.19-devel
+rust-cargo_toml_edit+default-devel
+rust-cargo_toml_edit-devel
 rust-cassowary+default-devel
 rust-cassowary-devel
 rust-castaway+alloc-devel
