@@ -1,5 +1,5 @@
 # repo: amazonlinux
-# generated: 2026-10-15T00:00:27Z for Amazon Linux release 2023.12.20261013
+# generated: 2026-10-16T00:00:26Z for Amazon Linux release 2023.12.20261014
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 7zip
 7zip-reduced
@@ -2468,6 +2468,12 @@ java-26-amazon-corretto-devel
 java-26-amazon-corretto-headless
 java-26-amazon-corretto-javadoc
 java-26-amazon-corretto-jmods
+java-27-amazon-corretto
+java-27-amazon-corretto-debugsymbols
+java-27-amazon-corretto-devel
+java-27-amazon-corretto-headless
+java-27-amazon-corretto-javadoc
+java-27-amazon-corretto-jmods
 java_cup
 java_cup-javadoc
 java_cup-manual
