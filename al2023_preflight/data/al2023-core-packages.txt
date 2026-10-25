@@ -1,5 +1,5 @@
 # repo: amazonlinux
-# generated: 2026-10-23T00:00:08Z for Amazon Linux release 2023.12.20261021
+# generated: 2026-10-25T00:00:08Z for Amazon Linux release 2023.12.20261026
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 7zip
 7zip-reduced
@@ -2656,6 +2656,7 @@ kernel-livepatch-6.1.186-228.376
 kernel-livepatch-6.1.188-233.385
 kernel-livepatch-6.1.188-233.386
 kernel-livepatch-6.1.188-233.393
+kernel-livepatch-6.1.189-236.399
 kernel-livepatch-6.1.19-30.43
 kernel-livepatch-6.1.21-1.45
 kernel-livepatch-6.1.23-36.46
@@ -2699,6 +2700,7 @@ kernel-livepatch-6.12.103-129.197
 kernel-livepatch-6.12.110-135.201
 kernel-livepatch-6.12.110-135.202
 kernel-livepatch-6.12.111-136.204
+kernel-livepatch-6.12.113-138.209
 kernel-livepatch-6.12.20-23.97
 kernel-livepatch-6.12.22-27.96
 kernel-livepatch-6.12.23-29.97
@@ -2765,6 +2767,7 @@ kernel-livepatch-6.18.48-109.150
 kernel-livepatch-6.18.51-120.162
 kernel-livepatch-6.18.51-120.163
 kernel-livepatch-6.18.54-121.166
+kernel-livepatch-6.18.56-125.164
 kernel-livepatch-6.18.8-9.213
 kernel-livepatch-repo-cdn
 kernel-livepatch-repo-s3
@@ -4578,6 +4581,7 @@ metis64-devel
 microcode_ctl
 microdnf
 microdnf-dnf
+microvm-kernel
 microvm-kernel6.18
 miniz
 miniz-devel
