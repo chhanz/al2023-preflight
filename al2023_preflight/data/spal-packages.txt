@@ -1,5 +1,5 @@
 # repo: amazonlinux-spal
-# generated: 2026-10-25T00:00:08Z for Amazon Linux release 2023.12.20261026
+# generated: 2026-10-30T00:00:08Z for Amazon Linux release 2023.12.20261029
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 3proxy
 AMF-devel
@@ -2077,6 +2077,8 @@ libyang-devel-doc
 libyang-tools
 libyubikey
 libyubikey-devel
+libyuv
+libyuv-devel
 libzmf
 libzmf-devel
 libzmf-doc
@@ -3130,6 +3132,7 @@ python3-mysqlclient
 python3-myst-parser
 python3-nagiosplugin
 python3-nodeenv
+python3-nodeenv+certifi
 python3-nss
 python3-ntplib
 python3-numexpr
@@ -3545,6 +3548,8 @@ rust-actix-macros-devel
 rust-actix-rt+actix-macros-devel
 rust-actix-rt+default-devel
 rust-actix-rt+macros-devel
+rust-actix-rt+net-devel
+rust-actix-rt+signal-devel
 rust-actix-rt-devel
 rust-addr2line+cargo-all-devel
 rust-addr2line+cpp_demangle-devel
@@ -5218,6 +5223,11 @@ rust-darling0.20+default-devel
 rust-darling0.20+diagnostics-devel
 rust-darling0.20+suggestions-devel
 rust-darling0.20-devel
+rust-darling0.21+default-devel
+rust-darling0.21+diagnostics-devel
+rust-darling0.21+serde-devel
+rust-darling0.21+suggestions-devel
+rust-darling0.21-devel
 rust-darling_core+default-devel
 rust-darling_core+diagnostics-devel
 rust-darling_core+serde-devel
@@ -5229,10 +5239,18 @@ rust-darling_core0.20+diagnostics-devel
 rust-darling_core0.20+strsim-devel
 rust-darling_core0.20+suggestions-devel
 rust-darling_core0.20-devel
+rust-darling_core0.21+default-devel
+rust-darling_core0.21+diagnostics-devel
+rust-darling_core0.21+serde-devel
+rust-darling_core0.21+strsim-devel
+rust-darling_core0.21+suggestions-devel
+rust-darling_core0.21-devel
 rust-darling_macro+default-devel
 rust-darling_macro-devel
 rust-darling_macro0.20+default-devel
 rust-darling_macro0.20-devel
+rust-darling_macro0.21+default-devel
+rust-darling_macro0.21-devel
 rust-dashmap+arbitrary-devel
 rust-dashmap+default-devel
 rust-dashmap+inline-devel
@@ -5946,6 +5964,7 @@ rust-fluent-uri-devel
 rust-flume+async-devel
 rust-flume+default-devel
 rust-flume+eventual-fairness-devel
+rust-flume+fastrand-devel
 rust-flume+futures-core-devel
 rust-flume+futures-sink-devel
 rust-flume+nanorand-devel
@@ -6566,6 +6585,7 @@ rust-hyper-rustls+logging-devel
 rust-hyper-rustls+native-tokio-devel
 rust-hyper-rustls+ring-devel
 rust-hyper-rustls+rustls-native-certs-devel
+rust-hyper-rustls+rustls-platform-verifier-devel
 rust-hyper-rustls+tls12-devel
 rust-hyper-rustls+webpki-roots-devel
 rust-hyper-rustls+webpki-tokio-devel
@@ -6599,6 +6619,7 @@ rust-hyper-util+default-devel
 rust-hyper-util+full-devel
 rust-hyper-util+http1-devel
 rust-hyper-util+http2-devel
+rust-hyper-util+rt-tracing-exec-force-devel
 rust-hyper-util+server-auto-devel
 rust-hyper-util+server-devel
 rust-hyper-util+server-graceful-devel
@@ -8046,7 +8067,9 @@ rust-object+compression-devel
 rust-object+default-devel
 rust-object+doc-devel
 rust-object+elf-devel
+rust-object+goff-devel
 rust-object+macho-devel
+rust-object+names-devel
 rust-object+pe-devel
 rust-object+read-devel
 rust-object+read_core-devel
@@ -8105,6 +8128,29 @@ rust-object0.37+write_core-devel
 rust-object0.37+write_std-devel
 rust-object0.37+xcoff-devel
 rust-object0.37-devel
+rust-object0.39+all-devel
+rust-object0.39+archive-devel
+rust-object0.39+build-devel
+rust-object0.39+build_core-devel
+rust-object0.39+cargo-all-devel
+rust-object0.39+coff-devel
+rust-object0.39+compression-devel
+rust-object0.39+default-devel
+rust-object0.39+doc-devel
+rust-object0.39+elf-devel
+rust-object0.39+macho-devel
+rust-object0.39+pe-devel
+rust-object0.39+read-devel
+rust-object0.39+read_core-devel
+rust-object0.39+std-devel
+rust-object0.39+unaligned-devel
+rust-object0.39+unstable-all-devel
+rust-object0.39+unstable-devel
+rust-object0.39+write-devel
+rust-object0.39+write_core-devel
+rust-object0.39+write_std-devel
+rust-object0.39+xcoff-devel
+rust-object0.39-devel
 rust-oid-registry+crypto-devel
 rust-oid-registry+default-devel
 rust-oid-registry+kdf-devel
@@ -8993,6 +9039,19 @@ rust-quick-xml0.38+serde-types-devel
 rust-quick-xml0.38+serialize-devel
 rust-quick-xml0.38+tokio-devel
 rust-quick-xml0.38-devel
+rust-quick-xml0.41+arbitrary-devel
+rust-quick-xml0.41+async-tokio-devel
+rust-quick-xml0.41+default-devel
+rust-quick-xml0.41+document-features-devel
+rust-quick-xml0.41+encoding-devel
+rust-quick-xml0.41+encoding_rs-devel
+rust-quick-xml0.41+escape-html-devel
+rust-quick-xml0.41+overlapped-lists-devel
+rust-quick-xml0.41+serde-devel
+rust-quick-xml0.41+serde-types-devel
+rust-quick-xml0.41+serialize-devel
+rust-quick-xml0.41+tokio-devel
+rust-quick-xml0.41-devel
 rust-quickcheck+default-devel
 rust-quickcheck+env_logger-devel
 rust-quickcheck+log-devel
@@ -10234,6 +10293,8 @@ rust-serde_derive+deserialize_in_place-devel
 rust-serde_derive-devel
 rust-serde_derive_internals+default-devel
 rust-serde_derive_internals-devel
+rust-serde_derive_internals0.29+default-devel
+rust-serde_derive_internals0.29-devel
 rust-serde_json+alloc-devel
 rust-serde_json+arbitrary_precision-devel
 rust-serde_json+default-devel
@@ -11628,6 +11689,7 @@ rust-tower-http+metrics-devel
 rust-tower-http+mime-devel
 rust-tower-http+mime_guess-devel
 rust-tower-http+normalize-path-devel
+rust-tower-http+on-early-drop-devel
 rust-tower-http+percent-encoding-devel
 rust-tower-http+propagate-header-devel
 rust-tower-http+redirect-devel
