@@ -1,5 +1,5 @@
 # repo: amazonlinux
-# generated: 2026-10-31T00:00:41Z for Amazon Linux release 2023.12.20261102
+# generated: 2026-11-10T00:00:57Z for Amazon Linux release 2023.12.20261109
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 7zip
 7zip-reduced
@@ -2659,6 +2659,7 @@ kernel-livepatch-6.1.188-233.393
 kernel-livepatch-6.1.189-236.399
 kernel-livepatch-6.1.189-236.400
 kernel-livepatch-6.1.19-30.43
+kernel-livepatch-6.1.190-237.431
 kernel-livepatch-6.1.21-1.45
 kernel-livepatch-6.1.23-36.46
 kernel-livepatch-6.1.25-37.47
@@ -2702,6 +2703,7 @@ kernel-livepatch-6.12.110-135.201
 kernel-livepatch-6.12.110-135.202
 kernel-livepatch-6.12.111-136.204
 kernel-livepatch-6.12.113-138.209
+kernel-livepatch-6.12.114-139.210
 kernel-livepatch-6.12.20-23.97
 kernel-livepatch-6.12.22-27.96
 kernel-livepatch-6.12.23-29.97
@@ -2769,6 +2771,7 @@ kernel-livepatch-6.18.51-120.162
 kernel-livepatch-6.18.51-120.163
 kernel-livepatch-6.18.54-121.166
 kernel-livepatch-6.18.56-125.164
+kernel-livepatch-6.18.56-126.188
 kernel-livepatch-6.18.8-9.213
 kernel-livepatch-repo-cdn
 kernel-livepatch-repo-s3
@@ -7217,6 +7220,28 @@ python3.14-test
 python3.14-tkinter
 python3.14-wheel
 python3.14-wheel-wheel
+python3.15
+python3.15-debug
+python3.15-devel
+python3.15-flit-core
+python3.15-freethreading
+python3.15-freethreading-debug
+python3.15-freethreading-devel
+python3.15-freethreading-idle
+python3.15-freethreading-libs
+python3.15-freethreading-test
+python3.15-freethreading-tkinter
+python3.15-idle
+python3.15-libs
+python3.15-packaging
+python3.15-pip
+python3.15-pip-wheel
+python3.15-setuptools
+python3.15-setuptools-wheel
+python3.15-test
+python3.15-tkinter
+python3.15-wheel
+python3.15-wheel-wheel
 qdox
 qdox-javadoc
 qemu
