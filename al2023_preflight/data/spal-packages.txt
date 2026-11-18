@@ -1,5 +1,5 @@
 # repo: amazonlinux-spal
-# generated: 2026-11-13T00:00:57Z for Amazon Linux release 2023.12.20261112
+# generated: 2026-11-18T00:00:27Z for Amazon Linux release 2023.12.20261117
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 3proxy
 AMF-devel
@@ -80,6 +80,8 @@ apptainer
 apptainer-suid
 argbash
 argparse-manpage
+aribb24
+aribb24-devel
 armadillo
 armadillo-devel
 arpack
@@ -115,6 +117,7 @@ bash-preexec-all-users
 bats
 bcal
 bcftools
+bear
 below
 bfs
 bgpq4
@@ -1644,6 +1647,8 @@ libappindicator-gtk3-devel
 libapreq2
 libapreq2-devel
 libapreq2-libs
+libaribcaption
+libaribcaption-devel
 libart_lgpl
 libart_lgpl-devel
 libass
@@ -1733,6 +1738,10 @@ libdnet-progs
 libdv
 libdv-devel
 libdv-tools
+libdvdnav
+libdvdnav-devel
+libdvdread
+libdvdread-devel
 libe-book
 libe-book-devel
 libe-book-doc
@@ -1817,6 +1826,8 @@ libiodbc
 libiodbc-devel
 libjodycode
 libjodycode-devel
+libklvanc
+libklvanc-devel
 libkml
 libkml-devel
 libknet1
@@ -2036,6 +2047,9 @@ libvmaf
 libvmaf-devel
 libvncserver
 libvncserver-devel
+libvpl
+libvpl-devel
+libvpl-samples
 libvterm
 libvterm-devel
 libvterm-tools
