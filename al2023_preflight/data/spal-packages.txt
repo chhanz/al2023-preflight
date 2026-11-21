@@ -1,5 +1,5 @@
 # repo: amazonlinux-spal
-# generated: 2026-11-20T00:00:27Z for Amazon Linux release 2023.12.20261119
+# generated: 2026-11-21T00:00:06Z for Amazon Linux release 2023.12.20261120
 # regenerate: scripts/refresh-package-db.sh (run on an up-to-date AL2023 host)
 3proxy
 AMF-devel
